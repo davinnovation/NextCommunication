@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="받는사람"
+        android:id="@+id/text1"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/originNum2"
+        android:textSize="15sp"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="90dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:background="#fd6ffd72"
+        android:layout_alignParentEnd="false"
+        android:onClick="sendSMS" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsText"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"/>
+    
+</RelativeLayout>

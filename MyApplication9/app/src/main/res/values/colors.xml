@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_material_dark_1">#fefdfd</color>
+    <color name="foreground_material_dark_1">#ffffff</color>
+    <color name="foreground_material_dark">#000000</color>
+    <color name="primary_dark_material_dark">#000000</color>
+    <color name="background_material_dark">#ed86fb92</color>
+    <color name="windowBackground">#ed36f421</color>
+    <color name="accent_material_dark">#7bfcf0</color>
+    <color name="primary_text_default_material_dark">#ffffff</color>
+    <color name="statusBarColor">#02ab3d</color>
+    <color name="primary_text_default_material_light">#deffffff</color>
+    <color name="primary_dark_material_light">#9c9c9c</color>
+</resources>
